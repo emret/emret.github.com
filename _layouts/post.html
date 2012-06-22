@@ -6,8 +6,8 @@
 <script>var _gaq=[['_setAccount','UA-32384004-1'],['_trackPageview']];(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.async=g.src='//www.google-analytics.com/ga.js';s.parentNode.insertBefore(g,s)}(document,'script'))</script>
 </head>
 <title>{{ page.title }}</title>
-<div id="title"><a href="/" id="home">dön</a><h1>{{ page.title  | xml_escape }}</h1></div>
-<div id="a"><h5>{{ page.date | date: "%d/%m/%y" }}</h5>{{ content }}</div>
+<div id="title"><a href="/" id="home">dön</a><h1>{{ page.title  | xml_escape }}</h1>&nbsp;<h5>{{ page.date | date: "%d/%m/%y" }}</h5></div>
+<div id="a">{{ content }}</div>
 <div id="comments" class="section">
   <div id="disqus_thread"></div>
   <a href="http://disqus.com" class="dsq-brlink attribution">yorumlar <span class="logo-disqus">Disqus</span> aracılığıyla sunulmaktadır</a>
